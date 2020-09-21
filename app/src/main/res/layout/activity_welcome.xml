@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ac.id.poltekkampar.from_login.WelcomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF3278"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E91E63"
+            android:gravity="center_horizontal"
+            android:text="WELCOME"
+            android:textColor="#FFFFFF"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/welcome2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/welcome"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="250dp"
+            android:text="Selamat Datang"
+            android:textColor="#FFFFFF"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:text="Exit" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
